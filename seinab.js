@@ -1,9 +1,12 @@
+const { goodMorning } = require('./ahmed')
+goodMorning('Tim', 'cook'); 
 
 function add(a, b) {
  const seinab = 6 + b;
  
  console.log('function entered'); 
  console.log(seinab);
+ goodMorning('Tim', 'cook'); 
 
  console.log(`my name is ${seinab}`)
 send(seinab)
