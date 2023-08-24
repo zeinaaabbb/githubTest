@@ -1,4 +1,5 @@
-const { goodMorning } = require('./ahmed')
+const goodMorning = require('./ahmed');
+
 goodMorning('Tim', 'cook'); 
 
 function add(a, b) {
